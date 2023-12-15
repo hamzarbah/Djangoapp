@@ -6,4 +6,4 @@ services:
       dockerfile: ./Dockerfile
     container_name: college_app
     ports:
-      - 8001:8000
+      - 80:80

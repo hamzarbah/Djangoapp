@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: college_app
+    ports:
+      - 8001:8000
